@@ -233,7 +233,7 @@ int countColumns = 0;
 
  while (size > 0)
         {
-            for (int i = countColumns; i <= countColumns + size - 1; i++) //строка неизменна countRows, столбцы от 0 до size-1
+            for (int i = countColumns; i <= countColumns + size - 1; i++)
             {
                 spiral[countRows, i] = arrayString[k];
                 k++;
